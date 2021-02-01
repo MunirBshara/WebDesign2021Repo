@@ -1,0 +1,68 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgreen;
+}
+
+.flag {
+    width: 1000px;
+    min-width: 1000px;
+    height: 500px;
+    position: relative;
+}
+
+.redstripe {
+    background-color: red;
+    width: 100%;
+    height: calc(500px / 13);
+}
+
+.whitestripe {
+    background-color: white;
+    width: 100%;
+    height: calc(500px / 13);
+}
+
+.bluebox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 420px;
+    height: calc((500px / 13) * 7);
+    background-color: blue;
+    z-index: 1;
+    padding: 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.star {
+    font-size: 22px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+.row6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 37px;
+}
