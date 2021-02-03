@@ -1,114 +1,22 @@
-<!-- Required basically makes sure the document behaves correctly -->
+<!-- Tells the browser what version of HTML to use... -->
 <!DOCTYPE html>
-<!-- Opening tag, Wraps all content on the page also  known as root element -->
+<!-- opening html content tag -->
 <html>
-<!-- Opening tag, Everything in here is not content that the page viewers see -->
+<!-- opens the head where linking and metadata can go -->
 
 <head>
-  <!-- Meta tag helps you handle any text content on your web page -->
-  <meta charset="utf-8">
-  <!-- Title tag sets the title of your web page in the browser tab when it loads in -->
-  <title>My test page</title>
-  <script src="_js/myJS.js"></script>
-  <link rel="stylesheet" type="text/css" href="_css/myStyle.css">
-  <!-- Closing tag for head-->
+    <!-- sets character set to be used by document -->
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <!-- style or CSS -->
+    <link rel="stylesheet" type="text/css" href="_css/myStyle.css">
+    <script src="_js/myScript.js"></script>
 </head>
-<!-- Opening tag, Contains all content you want your users to see on the page -->
 
-<body>
-  <canvas id="canvas" width="200" height="100"></canvas>
-  <div class="container">
-    <div class="flag">
-      <div class="bluebox">
-        <div class="row6">
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-        </div>
-        <div class="row5">
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-        </div>
-        <div class="row6">
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-        </div>
-        <div class="row5">
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-        </div>
-        <div class="row6">
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-        </div>
-        <div class="row5">
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-        </div>
-        <div class="row6">
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-        </div>
-        <div class="row5">
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-        </div>
-        <div class="row6">
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-          <div class="star">★</div>
-        </div>
-      </div>
-      <div class="stripes">
-        <div class="redstripe"></div>
-        <div class="whitestripe"></div>
-        <div class="redstripe"></div>
-        <div class="whitestripe"></div>
-        <div class="redstripe"></div>
-        <div class="whitestripe"></div>
-        <div class="redstripe"></div>
-        <div class="whitestripe"></div>
-        <div class="redstripe"></div>
-        <div class="whitestripe"></div>
-        <div class="redstripe"></div>
-        <div class="whitestripe"></div>
-        <div class="redstripe"></div>
-      </div>
-    </div>
-  </div>
+<body onload="draw()">
+<canvas id="canvas" width="200" height="100"></canvas>
 
-  <!-- Closing tag for the body of the webpage -->
 </body>
-<!-- Closing tag for html -->
+    
 
 </html>

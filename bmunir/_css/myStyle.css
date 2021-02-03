@@ -1,68 +1,31 @@
-
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* This is a CSS comment */
+#canvas {
+    border:1px solid #000000;
 }
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    background-color: lightgreen;
+.container{
+    margin: 0 auto;
+    width: 2000px;
+    height: 1000px;
 }
-
-.flag {
-    width: 1000px;
-    min-width: 1000px;
+.blueblock {
+    position: absolute;
+    top: 45px;
+    float: left;
+    background-color: #0000FF;
+    width: 700px;
     height: 500px;
-    position: relative;
 }
 
 .redstripe {
-    background-color: red;
-    width: 100%;
-    height: calc(500px / 13);
+    float: right;
+    height: 50px;
+    width: 2000px;
+    background-color: #db0c40
 }
 
 .whitestripe {
-    background-color: white;
-    width: 100%;
-    height: calc(500px / 13);
-}
-
-.bluebox {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 420px;
-    height: calc((500px / 13) * 7);
-    background-color: blue;
-    z-index: 1;
-    padding: 12px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.star {
-    font-size: 22px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin-top: -5px;
-}
-
-.row6 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.row5 {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 37px;
+    float: right;
+    height: 50px;
+    width: 2000px;
+    background-color: #FFFFFF
 }
